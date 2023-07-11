@@ -4,6 +4,14 @@
     background-color: yellowgreen;
 }
 
+body{
+    margin:0;
+}
+
+.height100{
+    height:100%;
+}
+
 .hidden{
     display: none;
 }
@@ -216,7 +224,17 @@
     background-color: white;
 }
 
+.overflow-auto {
+    overflow: auto;
+  }
+  
+
 @media screen and (max-width:600px){
+
+    .vh100{
+        height:100%;
+    }
+
     .navbar{
         display:none;
     }
@@ -253,7 +271,11 @@
 }
 
 
-@media screen and (min-width: 610px){
+@media screen and (min-width: 600px){
+
+    .vh100{
+        height:100%;
+    }
   
     .smenu{
         display:none;
@@ -281,6 +303,11 @@
 
 
 @media screen and (min-width: 900px){
+    .vh100{
+        height:100vh;
+    }
+
+   
     .toate>.width80{
         display: flex;
         flex-direction: row;
